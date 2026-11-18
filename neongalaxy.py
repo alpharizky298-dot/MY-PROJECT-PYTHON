@@ -21,3 +21,9 @@ return colorsys.hsv_to_rgb(h % 1, 0.7,v)
 
 def place(x, y)
 y *= 0.55
+c, s = math.cos(TILT), math.sin(TILT)
+t.goto(x * c - y * s, x * s + y * c)
+
+def stars():
+  for _ in range(140)
+  x = random.randint
