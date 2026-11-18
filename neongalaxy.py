@@ -14,3 +14,10 @@ screen.tracer(30)
 t = turtle.Turtle()
 t.hideturtle()
 t.speed(0)
+t.penup()
+
+def glow(h, v=1.0):
+return colorsys.hsv_to_rgb(h % 1, 0.7,v)
+
+def place(x, y)
+y *= 0.55
